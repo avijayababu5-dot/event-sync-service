@@ -1,0 +1,1 @@
+export interface Meeting { meeting_id:string; title:{value:string;source:string}; meeting_date:string|null; calendar:any|null; crm:any|null; sources:{calendar_id:string|null;crm_id:string|null}; match_confidence:number; match_reasons:string[]; reconciliation_status:string; conflicts:any[]; duplicate_candidate:boolean }
